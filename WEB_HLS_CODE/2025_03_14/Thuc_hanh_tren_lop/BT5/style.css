@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+    text-align: center;
+    border: 1px solid #000; /* Thêm border cho các ô */
+}
+
+.header {
+    height: 70px;
+    background-color: #f2c9a9;
+}
+
+.menu {
+    height: 50px;
+    background-color: #b0c4de;
+}
+
+.sidebar {
+    background-color: #d3e8d3;
+    width: auto;
+}
+
+.slider {
+    height: 150px;
+    background-color: #f4cccc;
+}
+
+.nb {
+    height: 300px;
+    background-color: #d9d2e9;
+}
+
+.tt {
+    background-color: #fff2cc;
+    text-align: center;
+}
+
+.f {
+    height: 90px;
+    background-color: #ffe599;
+    text-align: center;
+}
+
+.copyright {
+    background-color: #fff;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 17px; /* Điều chỉnh kích thước chữ nếu cần */
+}
