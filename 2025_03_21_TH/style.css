@@ -28,26 +28,26 @@ body {
 .content {
     flex:1;
     padding: 10px;
+    margin: 10px;
 }
 
 .bai_viet_noi_bat table {
     width: 100%;
     text-align: left;
-    font-size: 20px;
+    font-size: 10px;
 }
 .noi_dung{
     font-size: 15px;
     font-style: italic;
 }
 .bai_viet_noi_bat img {
-    width: 610px;
-    height: 610px;
+    width: 530px;
+    height: 530px;
 }
 
 .bai_viet_noi_bat button {
     background-color: #007bff;
     color: white;
-    border: none;
     padding: 15px 35px;
     cursor: pointer;
     font-size: 20px;
@@ -57,13 +57,20 @@ body {
     background-color: #0056b3;
 }
 
-footer {
-    display: table;
-    width: 100%;
+footer{
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
+    display: flex;
+    justify-content: space-between;
     color: gray;
+}
+.p1{
+    text-align: left;
+}  
+.p2{
+    text-align: right;
+    
 }
 .ten{
     font-size: 25px;
