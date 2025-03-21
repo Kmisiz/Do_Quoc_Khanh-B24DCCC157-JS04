@@ -1,63 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: white;
     margin: 0;
     padding: 0;
 }
 
-.header img {
-    width: 100%;
-    height: 150px;
-}
-
 .menu {
     background-color: #f1f1f1;
-    text-align: center;
-    padding: 10px 0;
+    text-align: left;
+    padding: 5px 0;
+    width: 1450px;
 }
-
 .menu a {
-    text-decoration: none;
-    color: black;
     margin: 0 10px;
     font-size: 14px;
 }
-
 .container {
     display: flex;
-    margin: 20px auto;
-    width: 1000px;
 }
 
 .danh_muc {
-    width: 200px;
     background-color: #f1f1f1;
     padding: 10px;
+    font-size: 20px;
     border-right: 1px solid #000;
 }
 
 .content {
-    flex: 1;
+    flex:1;
     padding: 10px;
 }
 
 .bai_viet_noi_bat table {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
 }
-
+.noi_dung{
+    font-size: 15px;
+    font-style: italic;
+}
 .bai_viet_noi_bat img {
-    width: 150px;
-    height: 100px;
+    width: 610px;
+    height: 610px;
 }
 
 .bai_viet_noi_bat button {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 15px 35px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .bai_viet_noi_bat button:hover {
@@ -71,4 +64,8 @@ footer {
     margin-top: 20px;
     font-size: 12px;
     color: gray;
+}
+.ten{
+    font-size: 25px;
+    font-weight: bold;
 }
