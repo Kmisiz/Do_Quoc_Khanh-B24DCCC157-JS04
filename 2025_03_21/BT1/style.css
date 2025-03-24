@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 700px;
+    height:537px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+.header {
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.bt{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+td{
+    padding: 10px;
+    font-size: 20px;
+}
+th{
+    padding: 10px;
+}
+button{
+    padding:5px 10px;
+    font-size: 15px;
+}
