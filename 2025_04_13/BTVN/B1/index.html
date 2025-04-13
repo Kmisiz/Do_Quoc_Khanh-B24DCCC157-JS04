@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Iphone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f6fa;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .product-list {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product-card {
+      width: 200px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      background-color: white;
+      transition: border-color 0.3s ease;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .product-card:hover {
+      border-color:gold;
+      transform: scale(1.05);
+    }
+
+    .product-img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product-name,
+    .product-price {
+      margin-top: 0.5rem;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    .product-name:hover{
+        color: #007bff;
+        cursor: pointer;
+    }
+    .product-price:hover {
+      color: #d65b32;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-list">
+    <div class="product-card">
+        <img src="iphone-16-plus-1_1.png" class="product-img" alt="iPhone 16plus">
+        <h3 class="product-name">iPhone 16 Plus 256GB</h3>
+        <p class="product-price">25.890.000đ</p>
+    </div>
+
+    <div class="product-card">
+        <img src="iphone-16e-256gb.webp" class="product-img" alt="iphone-16-promax">
+        <h3 class="product-name">iPhone 16e 256GB</h3>
+        <p class="product-price">19.390.000đ</p>
+    </div>
+
+    <div class="product-card">
+        <img src="iphone-16-promax.png" class="product-img" alt="">
+        <h3 class="product-name">iPhone 16 Pro Max 1TB</h3>
+        <p class="product-price">42.990.000đ</p>
+    </div>
+    <div class="product-card">
+        <img src="iphone-15-plus_1__1.webp" class="product-img" alt="iphone-15-plus_1__1">
+        <h3 class="product-name">iPhone 15 128GB</h3>
+        <p class="product-price">15.990.000đ</p>
+    </div>
+    <div class="product-card">
+        <img src="iphone-13-pro-max.webp" class="product-img" alt="iphone-13-pro-max">
+        <h3 class="product-name">iPhone 13 Pro Max 128GB</h3>
+        <p class="product-price">22.990.000đ</p>
+      </div>
+  </div>
+  
+
+</body>
+</html>
