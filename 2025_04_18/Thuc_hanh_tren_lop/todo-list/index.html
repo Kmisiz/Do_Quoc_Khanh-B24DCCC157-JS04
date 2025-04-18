@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="container">
+    <p>📝 Danh sách công việc hôm nay</p>
+    <form id="todo-list">
+      <ul class="morning">
+        <li class="task">
+          <input type="checkbox" id="m1" />
+          <label for="m1">Thức dậy</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="m2" />
+          <label for="m2">Vệ sinh cá nhân</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="m3" />
+          <label for="m3">Ăn sáng</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="m4" />
+          <label for="m4">Đi thực tập lập trình Script</label>
+          <span class="checked">✅</span>
+        </li>
+      </ul>
+
+      <ul class="afternoon">
+        <li class="task">
+          <input type="checkbox" id="a1" />
+          <label for="a1">Ăn trưa</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="a2" />
+          <label for="a2">Học môn Cơ sở dữ liệu</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="a3" />
+          <label for="a3">Học môn Lập trình Script</label>
+          <span class="checked">✅</span>
+        </li>
+      </ul>
+
+      <ul class="evening">
+        <li class="task">
+          <input type="checkbox" id="e1" />
+          <label for="e1">Học bù môn Cơ sở dữ liệu</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="e2" />
+          <label for="e2">Ăn tối</label>
+          <span class="checked">✅</span>
+        </li>
+        <li class="task">
+          <input type="checkbox" id="e3" />
+          <label for="e3">Làm bài tập</label>
+          <span class="checked">✅</span>
+        </li>
+      </ul>
+    </form>
+    <p data-type="reminder">* Ghi nhớ: Kỷ luật là sức mạnh!</p>
+  </div>
+</body>
+</html>
